@@ -1,3 +1,22 @@
 Alexis Camarasa
 
+URL
+
+https://public.tableau.com/app/profile/alexis.camarasa/viz/LabT_16837202265420/Dashboard1?publish=yes
+
+
+Explicacion:
+
+Hago entrega de lo que puede salvar y re-hacer.
+
+Al ingresar el .csv que plantea el ejercicio he notado que para seguir excautivamente el readme había que eliminar una fila que estaba mal ingresada. He creado el archivo (correccionerror.ipynb) para indagar en el df y he notado que el 2011 tenía récords impares por lo cual intuí que este es el año que había una fila de más. La fila a eliminar fue la 1051. Una vez realizado esto, he sobre escrito él .csv original y vuelto a subir mis nuevos datos limpios. 
+
+Llegando al final de ejercicio he notado que la columna "Defense Sacks" la tenía como una string por lo cual he cambiado esta columna a numérica ya que para realizar el ejercicio 8 era necesario. 
+
+Me llamo la atención que mis compañeros tenían esta columna como valor numérico por defecto, caso contrario al mío por lo cual decidí volver a abrir mi jupiter notbook para realizar un .info de mi df. Note que esta columna estaba en numérico lo cual nuestro Teacher nos ha ha explicado que a veces si alguien trabaja con Tableau en Ingles(como es mi caso) puede darse que al ingresar los datos a Tableu, algun dato numerico se cargue como string y que otros compañeros por trabajar con Tableau en Español pueden no tener esta problema y viceversa.
+El problema surgió que al volver a runniar el jupyter notbook sobre escribí, una vez más, el .csv que había cargado a Tableau haciendo la base de datos se llene de valores nulos. 
+
+Luego de varios intentos no pudimos salvar el trabajo realizado. 
+
+
 
